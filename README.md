@@ -1,4 +1,4 @@
-# Nurpl VSCode extension
+# Nuprl VSCode extension
 
 # Building
 Building requires [node.js](https://nodejs.org/en) and
