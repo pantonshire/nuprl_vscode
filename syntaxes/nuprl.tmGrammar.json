@@ -1,0 +1,14 @@
+{
+  "scopeName": "source.nuprl",
+  "patterns": [
+    {
+      "include": "#comment"
+    }
+  ],
+  "repository": {
+    "comment": {
+      "match": "\\/\\/.*",
+      "name": "comment.line.double-slash"
+    }
+  }
+}

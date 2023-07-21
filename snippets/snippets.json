@@ -1,0 +1,6 @@
+{
+    "Lambda": {
+        "prefix": ["lambda"],
+        "body": ["λ"]
+    }
+}

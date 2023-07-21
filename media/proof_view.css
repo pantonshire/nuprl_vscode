@@ -1,0 +1,76 @@
+.proofs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.proof {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: var(--vscode-editor-font-family);
+    font-weight: var(--vscode-editor-font-weight);
+    padding: 0.5rem;
+    /* FIXME: green / red depending on completion status */
+    border: 1px solid var(--vscode-textBlockQuote-border);
+}
+
+.proof ol.hypotheses {
+    padding: 0;
+    margin: 0;
+    list-style: inside decimal;
+}
+
+.proof ol.hypotheses:empty {
+    display: none;
+}
+
+.proof .ext_and_concl {
+    padding: 0;
+    margin: 0;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    background-color: var(--vscode-textBlockQuote-background);
+}
+
+.membership_separator {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.hypothesis {
+    
+}
+
+.goal {
+
+}
+
+.visibility {
+    vertical-align:middle;
+    margin-right: 1rem;
+    /* border: 1px solid red; */
+}
+
+.visibility_visible {
+    
+}
+
+.visibility_hidden {
+    color: var(--vscode-editorLightBulb-foreground);
+}
+
+.warnings {
+    color: var(--vscode-editorLightBulb-foreground);
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

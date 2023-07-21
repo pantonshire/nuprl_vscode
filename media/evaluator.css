@@ -1,0 +1,51 @@
+#expr_input {
+    padding: 0.4rem;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    font-family: var(--vscode-editor-font-family);
+    font-weight: var(--vscode-editor-font-weight);
+    border: 1px solid var(--vscode-input-border);
+    border-radius: 3px;
+}
+
+#expr_input:focus {
+    outline: none;
+    border: 1px solid var(--vscode-textBlockQuote-border);
+}
+
+#eval_container {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    overflow-x: hidden;
+    gap: 0.5rem;
+    max-width: 100%;
+    padding: 0 0.1rem;
+}
+
+#eval_container > * {
+    min-width: 0;
+}
+
+.reduce_button_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+#history > h3 {
+    margin: 0.5rem 0;
+}
+
+.history_cell {
+    min-width: 0;
+    overflow-wrap: break-word;
+    font-family: var(--vscode-editor-font-family);
+    font-weight: var(--vscode-editor-font-weight);
+    margin: 0;
+}
